@@ -12,70 +12,35 @@
       color: #222;
       margin: 0;
       padding: 2rem;
-      max-width: 900px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .profile-section {
-      display: flex;
-      align-items: flex-start;
-      background: #fff;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-    }
-
-    .profile-section img {
-      width: 180px;
-      height: auto;
-      border-radius: 12px;
-      margin-right: 2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      line-height: 1.6;
+      width: 100%;   /* 전체 화면 너비 */
     }
     
-    .profile-info h1 {
-      margin: 0;
-      font-size: 1.8rem;
-      color: #007acc;
-    }
-
-    .profile-info p {
-      margin: 0.4rem 0;
-      font-size: 0.95rem;
-      color: #444;
-    }
-
-    .contact-icons a {
-      font-size: 1.4rem;
-      margin-right: 0.8rem;
-      color: #444;
-    }
-
-    .contact-icons-inline a {
-      font-size: 1.9rem;
-      color: #444;
-      margin-left: 0.6rem; /* 조금 더 여유 있게 */
-      vertical-align: middle;
-    }
-    
-    .contact-icons a:hover {
-      color: #007acc;
-    }
-
-    .table1{
-      border-collapse: collapse;
+    /* 섹션 전체 너비 활용 */
+    section {
       width: 100%;
+      margin-bottom: 3rem;
+    }
+    
+    /* 테이블을 전체 너비로 */
+    .table1 {
+      border-collapse: collapse;
+      width: 100%;    /* 화면 전체 너비 */
       margin-top: 1rem;
       font-size: 0.95rem;
     }
-    .table2{
-      border-collapse: collapse;
-      width: 100%;
-      margin-top: 1rem;
-      font-size: 0.8rem;
-    } 
-  </style>
+    .table1 th, .table1 td {
+      border-bottom: 1px solid #ccc;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    .table1 th {
+      background-color: #f0f8ff;
+      color: #007acc;
+      font-weight: 600;
+      text-align: center;
+    }
+   </style>
 </head>
 <body>
 
