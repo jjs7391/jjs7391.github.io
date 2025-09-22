@@ -60,23 +60,26 @@
 <body>
 
   <section class="profile-section">
-    <!-- 증명사진 -->
-    <img src="images/profile.jpg" alt="Profile Photo">
-
-    <!-- 이름 + 자기소개 -->
-    <div class="profile-info">
-      <h1>👩 홍길동</h1>
-      <p>○○대학교 ○○학과 재학 중</p>
-      <p>관심 분야: 컴퓨터 그래픽스, 게임 개발, 웹 프로그래밍</p>
-      <p>“상상한 것을 현실로 구현하는 개발자가 되고 싶습니다.”</p>
-
-      <!-- 연락 아이콘 -->
-      <div class="contact-icons">
-        <a href="mailto:your_email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
-        <a href="https://github.com/your_github" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <!-- 증명사진 -->
+      <img src="images/profile.jpg" alt="Profile Photo">
+    
+      <!-- 이름 + 자기소개 -->
+      <div class="profile-info">
+        <div class="name-and-icons">
+          <h1 style="margin:0; display:flex; align-items:center; gap:0.6rem;">
+            👩 홍길동
+            <span class="contact-icons-inline">
+              <a href="mailto:your_email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+              <a href="https://github.com/your_github" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </span>
+          </h1>
+        </div>
+    
+        <p>○○대학교 ○○학과 재학 중</p>
+        <p>관심 분야: 컴퓨터 그래픽스, 게임 개발, 웹 프로그래밍</p>
+        <p>“상상한 것을 현실로 구현하는 개발자가 되고 싶습니다.”</p>
       </div>
-    </div>
-  </section>
+    </section>
 
 </body>
 </html>
